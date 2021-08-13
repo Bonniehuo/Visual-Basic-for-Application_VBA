@@ -1,0 +1,24 @@
+Sub TimesNewRoman()
+'
+' TimesNewRoman Macro
+'
+' Keyboard Shortcut: Ctrl+Shift+T
+'
+    Application.Left = 47
+    Application.Top = 2
+    Cells.Select
+    Selection.Font.Name = "Times New Roman"
+
+End Sub
+
+Sub Verdana()
+'
+' Verdana Macro
+'
+' Keyboard Shortcut: Ctrl+Shift+V
+'
+    Cells.Select
+    Selection.Font.Name = "Verdana"
+    Selection.Font.Size = 20
+
+End Sub
